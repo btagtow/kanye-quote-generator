@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif|Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap');
+#kanye-says-and-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 300px;
+}
+#genius-button{
+    height: 20px;
+}
+#kanye-says{
+    color: white;
+    background: black;
+    margin-top: 0;
+    border-style: solid;
+    border-color:white;
+    font-size: 70px;
+    width: 30%;
+    position:fixed;
+    top:200px;
+    left: 50px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Noto Serif', serif;   
+    border-radius: 15%;
+    display:flex; 
+    align-items: center;
+}
+
+
+body {
+    background-image: url('kanye-pic.png');
+    background-repeat: no-repeat;
+    height: 100%;
+
+    
+}
+
+body, html {
+    height: 100%;
+}
+
+
+h3 {
+    position: fixed;
+    top: 75px;
+    right: 130px;
+    left: 62.5rem;
+    font-size: 30px;
+    font-family: 'Shadows Into Light', cursive;
+
+  }
+
+
+button{
+    color: white;
+    background-color: black;
+}
